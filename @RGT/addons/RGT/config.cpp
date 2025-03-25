@@ -12,10 +12,6 @@ class CfgPatches {
 class CfgFunctions {
 	class RGT {
 		tag = "RGT";
-		class testing {
-			file = "RGT\functions";
-			class HelloWorld {};
-		};
 		class InfKits {
 			file = "RGT\functions\InfKits";
 				class AntiAirAmmoBearer{};
