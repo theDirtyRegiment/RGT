@@ -195,7 +195,7 @@ player addPrimaryWeaponItem _lam;
 switch(_rifle) do {
 	case "rhs_weap_hk416d10_LMT_d": {
 		player addPrimaryWeaponItem _optic;
-		player addPrimaryWeaponItem _grip;
+		player addPrimaryWeaponItem _grip1;
 	};
 	case "rhs_weap_hk416d10_smr_tan": {
 		player addPrimaryWeaponItem _optic;
@@ -207,7 +207,7 @@ switch(_rifle) do {
 	};
 	case "rhs_weap_mk18_nsr_d": {
 		player addPrimaryWeaponItem _optic;
-		player addPrimaryWeaponItem _grip;
+		player addPrimaryWeaponItem _grip1;
 	};
 	case "rhs_weap_mk18_nsr": {
 		player addPrimaryWeaponItem _optic;
