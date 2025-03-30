@@ -32,6 +32,18 @@ class CfgFunctions {
 				class MGAmmoBearer {};
 				class Rifleman {};
 		};
+		class CBRNKits {
+			file = "RGT\functions\CBRNKits";
+				class ARCBRN {};
+				class CLSCBRN {};
+				class EODCBRN {};
+				class GrenadierCBRN {};
+				class JTACCBRN {};
+				class LeaderCBRN {};
+				class LRRMCBRN {};
+				class MarksmanCBRN {};
+				class RiflemanCBRN {};
+		};
 		class ColdWarKits {
 			file = "RGT\functions\CWKits";
 				class cw_AntiAir {};
