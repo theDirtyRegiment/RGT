@@ -10,61 +10,49 @@ removeHeadgear player;
 comment "Create the arrays for different equipment";
 _rifle = [
 	"rhs_weap_m249", 0.90, 
-	"rhs_weap_m249_light_S", 0.05, 
-	"rhs_weap_m27iar_grip", 0.05] call BIS_fnc_selectRandomWeighted;
+	"rhs_weap_m249_light_S", 0.05] call BIS_fnc_selectRandomWeighted;
 _optic = [
 	"rhsusf_acc_eotech_552", 0.70, 
 	"rhsusf_acc_compm4", 0.25] call BIS_fnc_selectRandomWeighted;
-_uniform = [
-	"milgp_u_g3_field_set_mc",
-	"USP_G3F_MC",
-	"USP_G3F_MX_MC",
-	"USP_G3F_OR_MC",
-	"USP_G3F_G3C_MC",
-	"USP_G3F_G3C_KP_MC",
-	"USP_G3F_G3C_KP_MX_MC",
-	"USP_G3F_G3C_KP_OR_MC",
-	"USP_G3F_G3C_MX_MC",
-	"USP_G3F_G3C_OR_MC",
-	"USP_PCU_G3C_MC", 
-	"USP_PCU_G3C_KP_MC", 
-	"USP_PCU_G3C_KP_MX_MC", 
-	"USP_PCU_G3C_KP_OR_MC", 
-	"USP_PCU_G3C_MX_MC", 
-	"USP_PCU_G3C_OR_MC", 
-	"USP_SOFTSHELL_G3C_MC", 
-	"USP_SOFTSHELL_G3C_KP_MC", 
-	"USP_SOFTSHELL_G3C_KP_MX_MC", 
-	"USP_SOFTSHELL_G3C_KP_OR_MC", 
-	"USP_SOFTSHELL_G3C_MX_MC", 
-	"USP_SOFTSHELL_G3C_OR_MC"] call BIS_fnc_selectRandom;
 _vest = [
-	"rhsusf_spcs_ocp_saw", 
-	"milgp_v_marciras_hgunner_mc", 
-	"milgp_v_marciras_hgunner_belt_mc"] call BIS_fnc_selectRandom;
+	"milgp_v_jpc_hgunner_belt_rgr", 
+	"milgp_v_marciras_hgunner_rgr", 
+	"mmilgp_v_marciras_hgunner_belt_rgr",
+	"milgp_v_mmac_hgunner_belt_rgr"] call BIS_fnc_selectRandom;
 _bag = [
-	"TRYK_B_BAF_BAG_mcamo", 
-	"USP_PATROL_PACK_CS_FH_ZT",
-	"USP_PATROL_PACK_CB_CS_FH_RP_ZT", 
-	"USP_45L_RUCKSACK_MC"] call BIS_fnc_selectRandom;
+	"USP_REEBOW_3DAP_MCT", 
+	"USP_REEBOW_3DAP_ACC1_MCT", 
+	"USP_REEBOW_3DAP_ACC7_MCT"] call BIS_fnc_selectRandom;
 _mag = [
 	"rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote", 
 	"rhsusf_200Rnd_556x45_mixed_soft_pouch", 
 	"rhsusf_200Rnd_556x45_mixed_soft_pouch_ucp"] call BIS_fnc_selectRandom;
 _helmet = [
-	"rhsusf_ach_helmet_ocp_norotos", 
-	"rhsusf_ach_helmet_camo_ocp", 
-	"rhsusf_ach_helmet_headset_ess_ocp", 
-	"rhsusf_ach_helmet_headset_ocp"] call bIS_fnc_selectRandom;
+	"USP_OPSCORE_FASTMTC_M81_MT", 
+	"USP_OPSCORE_FASTMTC_M81_MTW", 
+	"USP_OPSCORE_FASTMTC_M81_MW", 
+	"USP_OPSCORE_FASTMTC_MCT_MSW",
+	"USP_OPSCORE_FASTMTC_MCT_S",
+	"USP_OPSCORE_FASTMTC_MCT_T"] call BIS_fnc_selectRandom;
+_goggles = [
+	"MK503",
+	"MK50",
+	"MK502",
+	"G_CBRN_A",
+	"G_CBRN_B",
+	"G_CBRN_M04",
+	"G_CBRN_M50"] call BIS_fnc_selectRandom;
 _nods = [
 	"USP_PVS14",
-	"USP_PVS14_TAR"] call BIS_fnc_selectRandom;
+	"USP_PVS14_TAR",
+	"USP_PVS31_WP_BLK"] call BIS_fnc_selectRandom;
 
 comment "Add Uniforms and Gear";
-player forceAddUniform _uniform;
+player forceAddUniform "CBRN_Expansion_Olive";
 player addVest _vest;
 player addBackpack _bag;
 player addHeadgear _helmet;
+player addGoggles _goggles;
 
 
 comment "Add Weapons and attachments";
@@ -73,11 +61,6 @@ switch(_rifle) do {
 	case "rhs_weap_m249_light_S": {
 		player addPrimaryWeaponItem "rhsusf_acc_elcan_ard";
 		player addPrimaryWeaponItem "rhsusf_acc_m952v";
-	};
-	case "rhs_weap_m27iar_grip": {
-		player addPrimaryWeaponItem "rhsusf_acc_m952v";
-		player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
-		player addPrimaryWeaponItem _optic;
 	};
 	default {
 		player addPrimaryWeaponItem "rhsusf_acc_saw_bipod";
@@ -94,11 +77,7 @@ for "_i" from 1 to 2 do {player addItem "HandGrenade";};
 for "_i" from 1 to 2 do {player addItem "SmokeShell";};
 player addItem "ACE_EntrenchingTool";
 for "_i" from 1 to 3 do {player addItem "rhsusf_mag_15Rnd_9x19_JHP";};
-if(_rifle isEqualTo "rhs_weap_m27iar_grip") then {
-	for "_i" from 1 to 5 do {player addItem "rhs_mag_100Rnd_556x45_M855A1_cmag";};
-} else {
-	for "_i" from 1 to 3 do {player addItem _mag;};
-};
+for "_i" from 1 to 3 do {player addItem _mag;};
 player addItem "ACE_EarPlugs";
 player addItem "ACE_Flashlight_MX991";
 player addItem "ACE_MapTools";
@@ -124,4 +103,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an infantry automatic rifleman. \nYour light machine gun's ability to provide short to medium range suppressing fire is the difference between life and death.";
+hint "You're now equipped as a CBRN autorifleman. \nYour heavy weaponry, combined with CBRN protection, allows you to deliver suppressive fire while staying shielded from chemical, biological, radiological, and nuclear threats.";

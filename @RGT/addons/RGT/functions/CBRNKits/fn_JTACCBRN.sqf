@@ -106,4 +106,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an infantry \nJoint Terminal Attack Controller. \nWith your equipment and know-how, you're the master of air-to-ground fire support.";
+hint "You're now equipped as a CBRN Joint Terminal Attack Controller. \nWith your expertise in directing air support, you coordinate devastating strikes while managing the complexities of a contaminated battlefield, ensuring precision and safety even in the most hazardous environments";

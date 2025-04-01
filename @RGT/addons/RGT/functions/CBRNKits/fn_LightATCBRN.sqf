@@ -106,4 +106,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an infantry rifleman. \nThe additional one-shot anti-armor weapon keeps your unit ready for anything.";
+hint "You're now equipped as a CBRN specialist. \nThe additional one-shot anti-armor weapon keeps your unit ready for anything.";

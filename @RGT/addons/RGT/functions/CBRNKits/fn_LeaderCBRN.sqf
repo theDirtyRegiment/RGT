@@ -101,4 +101,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an infantry commander. \nYour equipment is optimized to provide the leadership, that your team needs. \n \nPROs: Your team is equipped for fire-fights. \n \nCONs: Your team is limited in night-time capability.";
+hint "You're now equipped as an CBRN commander. \nYour equipment is optimized to provide the leadership that your team needs in hazardous environments. \n \nPROs: Your team is equipped for fire-fights in CBRN environments. \n \nCONs: Your team is limited by Gas mask filters and durability.";

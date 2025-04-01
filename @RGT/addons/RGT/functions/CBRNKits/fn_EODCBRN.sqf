@@ -110,4 +110,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 2, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an Explosive Ordnance Disposal specialist. \nYou're equipped to find and defuse explosives.";
+hint "You're now equipped as a CBRN Explosive Ordnance Disposal specialist. \nYour advanced tools and expertise allow you to safely neutralize explosive devices in contaminated environments, ensuring the safety of your team while navigating the deadliest threats.";

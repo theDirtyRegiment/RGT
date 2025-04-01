@@ -115,4 +115,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an infantry grenadier. \nWith your 40mm UGL you can provide immediate light indirect fire support.";
+hint "You're now equipped as a CBRN Grenadier. \nWith your 40mm UGL you can provide immediate light indirect fire support while staying protected from the dangers of a contaminated battlefield.";

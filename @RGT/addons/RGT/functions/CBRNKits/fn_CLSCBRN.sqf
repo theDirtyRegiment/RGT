@@ -119,4 +119,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 2, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an infantry medic. \nYour medical equipment and expertise is vital for your unit's survival.";
+hint "You're now equipped as a CBRN Combat Lifesaver. \nYour medical expertise and specialized gear allow you to treat casualties in even the most hazardous environments, saving lives in the face of chemical, biological, radiological, and nuclear threats.";

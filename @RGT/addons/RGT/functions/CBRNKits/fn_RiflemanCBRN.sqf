@@ -105,4 +105,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an infantry rifleman. \nYour equipment is optimized for long daylight short to medium range firefights.";
+hint "You're now equipped as a CBRN specialist. \nYour gear is designed to protect you from hazardous environments, ensuring survival in contaminated zones while enabling effective response to chemical, biological, radiological, and nuclear threats.";

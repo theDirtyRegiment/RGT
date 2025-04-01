@@ -107,4 +107,4 @@ player setVariable ["ACE_GForceCoef", 1];
 [[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
 [[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
 
-hint "You're now equipped as an infantry radio operator. \nYou're your unit's lifeline through long-range communications.";
+hint "You're now equipped as a CBRN RTO. \nYour communication gear ensures vital coordination across the battlefield, enabling your team to operate seamlessly in the most toxic and dangerous environments, where clear and secure lines of contact are critical.";
