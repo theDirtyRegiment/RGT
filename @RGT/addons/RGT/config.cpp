@@ -12,10 +12,6 @@ class CfgPatches {
 class CfgFunctions {
 	class RGT {
 		tag = "RGT";
-		class testing {
-			file = "RGT\functions";
-			class HelloWorld {};
-		};
 		class InfKits {
 			file = "RGT\functions\InfKits";
 				class AntiAirAmmoBearer{};
@@ -35,6 +31,18 @@ class CfgFunctions {
 				class MG {};
 				class MGAmmoBearer {};
 				class Rifleman {};
+		};
+		class CBRNKits {
+			file = "RGT\functions\CBRNKits";
+				class ARCBRN {};
+				class CLSCBRN {};
+				class EODCBRN {};
+				class GrenadierCBRN {};
+				class JTACCBRN {};
+				class LeaderCBRN {};
+				class LRRMCBRN {};
+				class MarksmanCBRN {};
+				class RiflemanCBRN {};
 		};
 		class ColdWarKits {
 			file = "RGT\functions\CWKits";
