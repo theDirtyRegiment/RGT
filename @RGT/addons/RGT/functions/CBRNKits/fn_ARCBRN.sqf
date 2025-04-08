@@ -87,6 +87,12 @@ player addItem "ACE_Chemlight_IR";
 player addItem "Chemlight_red";
 player addItem "ACE_microDAGR";
 
+comment "Add CBRN Gear";
+player addItem "ACE_ATNAA_AntidoteInjector";
+player addItem "CBRN_gasmaskFilter";
+player addItem "CBRN_DuctTape";
+player addItem "CBRN_sealant";
+
 comment "Add final Gear";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
