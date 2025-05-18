@@ -17,7 +17,7 @@ _optic = [
 _vest = [
 	"milgp_v_jpc_hgunner_belt_rgr", 
 	"milgp_v_marciras_hgunner_rgr", 
-	"mmilgp_v_marciras_hgunner_belt_rgr",
+	"milgp_v_marciras_hgunner_belt_rgr",
 	"milgp_v_mmac_hgunner_belt_rgr"] call BIS_fnc_selectRandom;
 _bag = [
 	"USP_REEBOW_3DAP_MCT", 
