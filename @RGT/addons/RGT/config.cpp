@@ -12,6 +12,16 @@ class CfgPatches {
 class CfgFunctions {
 	class RGT {
 		tag = "RGT";
+		class Boxes {
+			file = "RGT\functions\Boxes";
+				class AmmoBoxWest {};
+				class AmmoBoxEast {};
+				class MedBox {};
+				class ScopeBox {};
+				class SupportBox {};
+				class ExplosiveBox {};
+				class BarbieBox {};
+		};
 		class InfKits {
 			file = "RGT\functions\InfKits";
 				class AntiAirAmmoBearer{};
