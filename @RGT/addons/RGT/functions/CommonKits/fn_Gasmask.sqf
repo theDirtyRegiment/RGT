@@ -18,7 +18,7 @@ player forceAddUniform "CBRN_Expansion_Olive";
 } forEach _oldInventory;
 player addGoggles _goggles;
 
-if(backpack player isEqualTo "TRYK_B_Medbag_BK") then {
+if(backpack player in ["TRYK_B_Medbag_BK","USP_DELTA_BAG_BLK","USP_DELTA_BAG_MCB"]) then {
     comment "Add CLS CBRN Gear";
     for "_i" from 1 to 10 do {player addItemToBackpack "ACE_ATNAA_AntidoteInjector";};
     for "_i" from 1 to 5 do {player addItemToBackpack "CBRN_gasmaskFilter";};
