@@ -12,6 +12,40 @@ class CfgPatches {
 class CfgFunctions {
 	class RGT {
 		tag = "RGT";
+		class Boxes {
+			file = "RGT\functions\Boxes";
+				class AmmoBoxWest {};
+				class AmmoBoxEast {};
+				class MedBox {};
+				class ScopeBox {};
+				class SupportBox {};
+				class ExplosiveBox {};
+				class BarbieBox {};
+				class AmmoEastButtons {};
+				class BarbieButtons {};
+				class MedButtons {};
+		};
+		class Quartermasters {
+			file = "RGT\functions\Quartermasters";
+				class arcticQM {};
+				class cbrnQM {};
+				class chQM {};
+				class civQM {};
+				class cwQM {};
+				class cwM16QM {};
+				class divingQM {};
+				class guerQM {};
+				class indigQM {};
+				class infQM {};
+				class pmcQM {};
+				class reconQM {};
+				class rusQM {};
+				class sniperQM {};
+				class sofQM {};
+				class spetsnazQM {};
+				class ucQM {};
+				class wdQM {};
+		};
 		class InfKits {
 			file = "RGT\functions\InfKits";
 				class AntiAirAmmoBearer{};

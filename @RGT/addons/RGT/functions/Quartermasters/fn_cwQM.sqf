@@ -1,0 +1,14 @@
+_this addAction['Get Rifleman Loadout',RGT_fnc_cw_rifleman,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get Light AT Loadout',RGT_fnc_cw_LightAT,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get CLS Loadout',RGT_fnc_cw_CLS,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get Marksman Loadout',RGT_fnc_cw_marksman,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Grenadier Loadout',RGT_fnc_cw_grenadier,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Leader Loadout', RGT_fnc_cw_leader,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Radioman Loadout',RGT_fnc_cw_radioman,nil,1.5,true,true,"","((_target distance _this)<5)"];   
+_this addAction['Get Machinegunner Loadout',RGT_fnc_cw_MG,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Anti Air Loadout',RGT_fnc_cw_AntiAir,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get EOD Specialist Loadout',RGT_fnc_cw_EOD,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction["<t color='#2C75FF'>Add Static Line Parachute", RGT_fnc_ParachuteS,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get AFV Crewman Loadout', RGT_fnc_Crewman,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get RW Crewman Loadout', RGT_fnc_HeliCrewman,nil,1.5,true,true,"","((_target distance _this)<5)"];
+_this addAction['Get FW Crewman Loadout', RGT_fnc_PlaneCrewman,nil,1.5,true,true,"","((_target distance _this)<5)"];
