@@ -1,0 +1,4 @@
+_this addAction['Get Operative Loadout',RGT_fnc_Operativeindig,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get Medic Loadout',RGT_fnc_CLSindig,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get Marksman Loadout',RGT_fnc_Marksmanindig,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get Leader Loadout',RGT_fnc_Leaderindig,nil,1.5,true,true,"","((_target distance _this)<5)"];
