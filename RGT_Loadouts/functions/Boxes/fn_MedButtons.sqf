@@ -1,0 +1,1 @@
+_this addAction['Take First Aid Bag',RGT_fnc_medbag,nil,1.5,true,true,"","((_target distance _this)<5)"];

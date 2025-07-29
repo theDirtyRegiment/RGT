@@ -1,0 +1,14 @@
+_this addAction['Get Rifleman Loadout',RGT_fnc_AssaultArctic,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get CLS Loadout',RGT_fnc_CLSArctic,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Autorifleman Loadout',RGT_fnc_ARArctic,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Light AT Loadout',RGT_fnc_LightATArctic,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Radioman Loadout',RGT_fnc_RTOArctic,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get JTAC Loadout',RGT_fnc_JTACArctic,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get Marksman Loadout',RGT_fnc_MarksmanArctic,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Engineer Loadout',RGT_fnc_BreacherArctic,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get Grenadier Loadout',RGT_fnc_GrenadierArctic,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction['Get Leader Loadout', RGT_fnc_LeaderArctic,nil,1.5,true,true,"","((_target distance _this)<5)"];  
+_this addAction["<t color='#2C75FF'>Add Parachute", RGT_fnc_Parachute,nil,1.5,true,true,"","((_target distance _this)<5)"];
+_this addAction['Get AFV Crewman Loadout', RGT_fnc_Crewman,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get RW Crewman Loadout', RGT_fnc_HeliCrewman,nil,1.5,true,true,"","((_target distance _this)<5)"]; 
+_this addAction['Get FW Crewman Loadout', RGT_fnc_PlaneCrewman,nil,1.5,true,true,"","((_target distance _this)<5)"];

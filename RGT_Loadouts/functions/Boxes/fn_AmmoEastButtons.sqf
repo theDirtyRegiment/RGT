@@ -1,0 +1,2 @@
+_this addAction['Take an Assault Pack',RGT_fnc_smallbagRUS,nil,1.5,true,true,"","((_target distance _this)<5)"];   
+_this addAction['Take a Patrol Pack',RGT_fnc_bigbagRUS,nil,1.5,true,true,"","((_target distance _this)<5)"];

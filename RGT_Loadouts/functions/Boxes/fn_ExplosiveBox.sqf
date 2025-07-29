@@ -1,0 +1,20 @@
+params ["_crate"];
+
+_crate addItemCargoGlobal ["ACE_DefusalKit", 5];
+_crate addItemCargoGlobal ["tsp_breach_shock", 5];
+_crate addItemCargoGlobal ["ACE_Clacker", 5];
+_crate addItemCargoGlobal ["ACE_M26_Clacker", 5];
+_crate addItemCargoGlobal ["tsp_breach_popper_auto_mag", 10];
+_crate addItemCargoGlobal ["DemoCharge_Remote_Mag", 10];
+_crate addItemCargoGlobal ["SatchelCharge_Remote_Mag", 10];
+_crate addItemCargoGlobal ["tsp_breach_block_mag", 10];
+_crate addItemCargoGlobal ["tsp_breach_linear_mag", 10];
+_crate addItemCargoGlobal ["ClaymoreDirectionalMine_Remote_Mag", 10];
+_crate addItemCargoGlobal ["SLAMDirectionalMine_Wire_Mag", 10];
+_crate addItemCargoGlobal ["tsp_breach_stick_mag", 10];
+_crate addItemCargoGlobal ["tsp_breach_package_mag", 5];
+_crate addItemCargoGlobal ["tsp_breach_silhouette_mag", 5];
+_crate addItemCargoGlobal ["APERSBoundingMine_Range_Mag", 5];
+_crate addItemCargoGlobal ["APERSTripMine_Wire_Mag", 5];
+_crate addItemCargoGlobal ["ATMine_Range_Mag", 10];
+_crate addItemCargoGlobal ["APERSMine_Range_Mag", 5];
