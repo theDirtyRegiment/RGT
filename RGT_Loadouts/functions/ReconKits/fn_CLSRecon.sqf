@@ -11,8 +11,7 @@ removeGoggles player;
 comment "Create the arrays for different equipment";
 _optic = [
 	"optic_dms", 0.45, 
-	"optic_MRCO", 0.45, 
-	"rhsusf_acc_anpas13gv1", 0.10] call BIS_fnc_selectRandomWeighted;
+	"optic_MRCO", 0.45] call BIS_fnc_selectRandomWeighted;
 _clothing = [
 	"milgp_u_g3_field_set_rolled_mctropic", 0.60, 
 	"milgp_u_g3_field_set_mctropic", 0.15, 

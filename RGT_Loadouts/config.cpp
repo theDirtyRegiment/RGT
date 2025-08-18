@@ -21,6 +21,8 @@ class CfgFunctions {
 				class SupportBox {};
 				class ExplosiveBox {};
 				class BarbieBox {};
+				class ResupplyWest {};
+				class ResupplyEast {};
 				class AmmoEastButtons {};
 				class AmmoWestButtons {};
 				class BarbieButtons {};
@@ -49,7 +51,6 @@ class CfgFunctions {
 		};
 		class InfKits {
 			file = "RGT_Loadouts\functions\InfKits";
-				class AntiAirAmmoBearer{};
 				class AR {};
 				class ARAmmoBearer {};
 				class CLS {};
@@ -165,9 +166,10 @@ class CfgFunctions {
 				class Sniperbag {};
 				class medbag {};
 				class bigbag {};
-				class maws {};
+				class MedAT {};
 				class MedAT_AmmoBearer{};
-				class jav {};
+				class HeavyAT {};
+				class HeavyAT_AmmoBearer {};
 				class bigbagRUS {};
 				class smallbag {};
 				class smallbagRUS {};
@@ -176,6 +178,7 @@ class CfgFunctions {
 				class Mortar_Tube {};
 				class Mortar_Ammo {};
 				class AntiAir {};
+				class AntiAir_AmmoBearer {};
 				class Ghilliearid1 {};
 				class Ghilliearid2 {};
 				class Ghillietrop1 {};
