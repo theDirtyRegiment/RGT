@@ -151,7 +151,7 @@ class WoodlandLoadoutUI
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {0.1,0.1,0.1,1};
 			sizeEx = 0.06;
-				action = "remoteExec ['RGT_fnc_jav', player, false]";
+				action = "remoteExec ['RGT_fnc_HeavyAT_AmmoBearer', player, false]";
 		};
 		class RscButton_1604: RscButton
 		{
@@ -164,7 +164,7 @@ class WoodlandLoadoutUI
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {0.1,0.1,0.1,1};
 			sizeEx = 0.06;
-			action = "remoteExec ['RGT_fnc_HeavyATAmmoBearer', player, false]";
+			action = "remoteExec ['RGT_fnc_HeavyAT_AmmoBearer', player, false]";
 		};
 		class RscButton_1605: RscButton
 		{
@@ -216,7 +216,7 @@ class WoodlandLoadoutUI
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {0.1,0.1,0.1,1};
 			sizeEx = 0.06;
-			action = "remoteExec ['RGT_fnc_AntiAirAmmoBearerwd', player, false]";
+			action = "remoteExec ['RGT_fnc_AntiAir_AmmoBearer', player, false]";
 		};
 		class RscButton_1611: RscButton
 		{

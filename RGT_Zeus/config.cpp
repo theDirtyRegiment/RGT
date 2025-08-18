@@ -1,3 +1,5 @@
+#include "dialogs\QMselectionUI.hpp"  // 👈 Registers your custom UI dialog
+
 class CfgPatches {
     class RGT_Zeus {
         units[] = {
@@ -23,8 +25,10 @@ class CfgFunctions {
     class RGT {
         class Zeus {
             file = "RGT_Zeus\functions";
-            class zeusRemoveGPS {};                  // fn_rmGPS.sqf
-            class zeusAddLoadoutActions {}; // fn_zeusAddLoadoutActions.sqf
+
+            class zeusOpenLoadoutUI {};         // Entrypoint from Zeus module
+            class zeusShowQMSelectionUI {};     // Shows the dialog and populates it
+            class zeusHandleLoadoutActions {};  // Handles selection after confirm
         };
     };
 };
@@ -47,7 +51,7 @@ class CfgVehicles {
         };
     };
 
-    // 1. Remove GPS / MicroDAGR Module
+    // Remove GPS module
     class RGT_ModuleRemoveGPS: Module_F {
         scope = 2;
         scopeCurator = 2;
@@ -66,13 +70,13 @@ class CfgVehicles {
         };
     };
 
-    // 2. Add Loadout Actions Module
+    // Add Loadout Actions (QM)
     class RGT_ModuleAddLoadoutActions: Module_F {
         scope = 2;
         scopeCurator = 2;
         displayName = "Add Loadout Actions (QM)";
         category = "RGT_Modules";
-        function = "RGT_fnc_zeusAddLoadoutActions";
+        function = "RGT_fnc_zeusOpenLoadoutUI";  // 👈 This is the entry function
         isGlobal = 1;
         isTriggerActivated = 0;
         isDisposable = 1;
@@ -82,7 +86,7 @@ class CfgVehicles {
         class Attributes: AttributesBase {
             class LoadoutType {
                 displayName = "Loadout Menu Type";
-                tooltip = "Choose which QM script to apply.";
+                tooltip = "Choose which QM script to apply (leave empty for UI).";
                 typeName = "STRING";
 
                 class Values {

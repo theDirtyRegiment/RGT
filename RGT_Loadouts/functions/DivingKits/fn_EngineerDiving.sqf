@@ -133,6 +133,8 @@ player addItemToBackpack "ACE_Chemlight_IR";
 player addItemToBackpack "Chemlight_red";
 player addItemToBackpack "Chemlight_green";
 player addItemToBackpack "ACE_HandFlare_Green";
+player addItem "ACE_SpraypaintGreen";
+player addItem "ACE_SpraypaintRed";
 for "_i" from 1 to 2 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 for "_i" from 1 to 2 do {player addItemToBackpack "tsp_breach_linear_mag";};
 

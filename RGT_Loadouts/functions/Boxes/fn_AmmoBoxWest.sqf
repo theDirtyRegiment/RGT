@@ -17,6 +17,7 @@ _crate addItemCargoGlobal ["rhs_mag_m662_red", 10];
 _crate addItemCargoGlobal ["rhs_mag_m713_Red", 10];
 _crate addItemCargoGlobal ["rhs_mag_m714_white", 10];
 _crate addItemCargoGlobal ["rhs_mag_m715_Green", 10];
+_crate addItemCargoGlobal ["rhs_mag_M441_HE", 20];
 _crate addItemCargoGlobal ["SmokeShellBlue", 10];
 _crate addItemCargoGlobal ["SmokeShellRed", 10];
 _crate addItemCargoGlobal ["rhs_mag_an_m8hc", 10];

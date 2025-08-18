@@ -50,6 +50,7 @@ switch(floor random 20) do {
 	default {};
 };
 player addPrimaryWeaponItem "rhs_acc_dtk1983";
+player addWeapon "ACE_VMM3";
 
 comment "Add Uniforms and Gear";
 player forceAddUniform _uniform;
