@@ -54,7 +54,6 @@ class CfgFunctions {
 				class AR {};
 				class ARAmmoBearer {};
 				class CLS {};
-				class Engineer {};
 				class EOD {};
 				class Grenadier {};
 				class GrenadierAmmoBearer {};
