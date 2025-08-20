@@ -136,7 +136,6 @@ class CfgFunctions {
 		};
 		class WoodlandKits {
 			file = "RGT_Loadouts\functions\WdInfKits";
-				class AntiAirAmmoBearerwd{};
 				class ARwd {};
 				class ARAmmoBearerwd {};
 				class CLSwd {};
@@ -148,7 +147,6 @@ class CfgFunctions {
 				class Leaderwd {};
 				class LRRMwd {};
 				class Marksmanwd {};
-				class MedATAmmoBearerwd {};
 				class MGwd {};
 				class MGAmmoBearerwd {};
 				class Riflemanwd {};
