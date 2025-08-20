@@ -59,7 +59,6 @@ class CfgFunctions {
 				class ParachuteS {};
 				class CigarZippo {};
 				class CigsMatch {};
-				class Lolly {};
 				class Gasmask {};
 				class Sniperbag {};
 				class medbag {};
